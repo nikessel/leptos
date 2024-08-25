@@ -81,7 +81,7 @@ url = "2"
 pin-project-lite = "0.2.13"
 
 [features]
-default = ["postcard"]
+default = ["json"]
 axum-no-default = [
   "ssr",
   "dep:axum",
