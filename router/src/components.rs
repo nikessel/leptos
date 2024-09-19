@@ -414,7 +414,7 @@ where
                 })
             }
         };
-        (view! { <Transition>{view}</Transition> }).into_any()
+        view.into_any()
     };
     NestedRoute::new(path, view).ssr_mode(ssr).child(children)
 }
